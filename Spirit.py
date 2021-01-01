@@ -13,7 +13,7 @@ class Spirit:
         d["href"]  = self.href
         d["photo"] = self.photoHref
 
-        return json.dumps(d)
+        return d
 
 
 #{
